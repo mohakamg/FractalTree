@@ -92,7 +92,8 @@ function branch(len){
     translate(0, -len);
     noStroke();
     fill(255, 100);
-    ellipse(0, 0, 4);
+    // ellipse(0, 0, 4);
+    arc(0, 0, 16, 4, 0, HALF_PI);
     pop();
   }
 
